@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="css/tiny-slider.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
+
+  <title>Amrita Maps</title>
+
+  <style>
+    #route {
+        margin-top: 20px;
+    }
+    .instruction {
+        display: none;
+        margin-top: 10px;
+        font-size: 1.25rem;
+    }
+    .custom-navbar-nav .nav-link {
+        font-size: 1.25rem;
+    }
+    .instruction button {
+        margin-right: 5px;
+        padding: 7px 10px; /* Reduced padding for smaller buttons */
+        font-size: 0.875rem; /* Reduced font size for smaller buttons */
+    }
+    .btn-primary {
+        font-size: 0.875rem; /* Match the font size of the route buttons */
+        padding: 7px 10px; /* Match the padding of the route buttons */
+    }
+    .btn-next {
+        padding-right: 15px; /* Extra padding for the Next button */
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Amrita-vishwa-vidyapeetham-color-logo.png" alt="Brand Image" style="height: 160px; width: 200px;">
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsFurni">
+        <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#search-section">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="shop.html">Maps</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="hero" id="search-section">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-5">
+          <div class="intro-excerpt">
+            <h1 style="margin: 0; padding: 0;">Amrita School Of Engineering</h1>
+            <h2 style="margin: 0; padding: 0; color: white;">Bangalore</h2>
+            <p class="mb-4">Located at the heart of Bengaluru, is one of the most buoyant centers of research, education, and technological advancement in the tech-city.</p>
+            <p>
+              <a href="#" class="btn btn-secondary me-2" onclick="scrollToSearch()">Search Route</a>
+              <a href="shop.html" class="btn btn-white-outline">Explore</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="hero-img-wrap">
+            <img src="images/amrita building.jpeg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="why-choose-section">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-6">
+          <div class="row my-5">
+            <div class="col-6 col-md-6">
+              <div class="feature">
+              </div>
+            </div>
+            <div class="col-6 col-md-6">
+              <div class="feature">
+              </div>
+            </div>
+          </div>
+          <form id="routeForm">
+            <label for="start">Starting Point:</label>
+            <select id="start" name="start" class="form-select">
+              <option value="entrance">Entrance</option>
+              <option value="boys">Boy's Hostel</option>
+              <option value="girls">Girl's Hostel</option>
+              <option value="a">A Block</option>
+              <option value="b">B Block</option>
+              <option value="c">C Block</option>
+              <option value="d">D Block</option>
+              <option value="e">E Block</option>
+              <option value="elearn">E-Learning Hall</option>
+              <option value="lib">Library</option>
+              <option value="cafeteria">Cafeteria</option>
+              <option value="ecafe">E-Block Cafeteria</option>
+              <option value="vahall">Valmiki Hall</option>
+              <option value="amhall">Amriteshwari Hall</option>
+              <option value="shall">Sudhamani Hall</option>
+              <option value="rhall">Rama Hall</option>
+              <option value="khall">Krishna Hall</option>
+              <option value="vhall">Vyasa Hall</option>
+              <option value="atm">ATM</option>
+              <option value="xerox">Xerox Shop</option>
+              <option value="clinic">Clinic/Department of Student Affairs</option>
+              <option value="admin">Admin Office</option>
+              <option value="pe">Principal of Engineering</option>
+              <option value="pc">Principal of Computing/Labs</option>
+              <option value="cir">CIR/Placement Department</option>
+              <option value="egirls">Girl's Washroom</option>
+              <option value="eboys">Boy's Washroom</option>
+              <option value="eee">EEE/Math Department</option>
+              <option value="cse">CSE/AI Department</option>
+              <option value="ece">ECE Department</option>
+            </select>
+            <br>
+            <!-- <button type="button" class="btn btn-secondary" onclick="startQrCodeScanner()">Scan QR Code</button>
+            <div id="qr-reader" style="width: 300px; margin-top: 20px;"></div> -->
+            <br><br>
+            
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" class="form-select">
+              <option value="entrance">Entrance</option>
+              <option value="boys">Boy's Hostel</option>
+              <option value="girls">Girl's Hostel</option>
+              <option value="a">A Block</option>
+              <option value="b">B Block</option>
+              <option value="c">C Block</option>
+              <option value="d">D Block</option>
+              <option value="e">E Block</option>
+              <option value="elearn">E-Learning Hall</option>
+              <option value="lib">Library</option>
+              <option value="cafeteria">Cafeteria</option>
+              <option value="ecafe">E-Block Cafeteria</option>
+              <option value="vahall">Valmiki Hall</option>
+              <option value="amhall">Amriteshwari Hall</option>
+              <option value="shall">Sudhamani Hall</option>
+              <option value="rhall">Rama Hall</option>
+              <option value="khall">Krishna Hall</option>
+              <option value="vhall">Vyasa Hall</option>
+              <option value="atm">ATM</option>
+              <option value="xerox">Xerox Shop</option>
+              <option value="clinic">Clinic/Department of Student Affairs</option>
+              <option value="admin">Admin Office</option>
+              <option value="pe">Principal of Engineering</option>
+              <option value="pc">Principal of Computing/Labs</option>
+              <option value="cir">CIR/Placement Department</option>
+              <option value="egirls">Girl's Washroom</option>
+              <option value="eboys">Boy's Washroom</option>
+              <option value="eee">EEE/Math Department</option>
+              <option value="cse">CSE/AI Department</option>
+              <option value="ece">ECE/MECH Department</option>
+            </select>
+            <br><br>
+            
+            <button type="submit" class="btn btn-primary">Get Route</button>
+          </form>
+          
+          <div id="route"></div>
+
+        </div>
+
+        <div class="col-lg-5">
+          <div class="img-wrap">
+            <div id="route"></div>
+            <img id="map" alt="Route Map" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    window.onload = function() {
+      const startPoint = getQueryParam('start');
+      if (startPoint) {
+        const startSelect = document.getElementById('start');
+        startSelect.value = startPoint;
+      }
+    };
+
+    // Scroll to the search section if a starting point is set
+    function scrollToSearch() {
+      const searchSection = document.getElementById('search-section');
+      searchSection.scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    // Event listener for the "Search Route" button
+    document.querySelector('.btn-secondary').addEventListener('click', scrollToSearch);
+
+    document.getElementById('routeForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      const start = document.getElementById('start').value;
+      const destination = document.getElementById('destination').value;
+      
+      const routeKey = `${start}-${destination}`;
+      const routeInstructions = routes[routeKey];
+      const images = routeImages[routeKey];
+      
+      const routeDiv = document.getElementById('route');
+      routeDiv.innerHTML = '';
+
+      const map = document.getElementById('map');
+      map.style.display = 'none';
+
+      if (routeInstructions) {
+        routeInstructions.forEach((instruction, index) => {
+          const instructionDiv = document.createElement('div');
+          instructionDiv.className = 'instruction';
+          instructionDiv.id = `instruction-${index}`;
+          
+          const instructionText = document.createElement('p');
+          instructionText.textContent = instruction;
+          instructionDiv.appendChild(instructionText);
+          
+          const nextButton = document.createElement('button');
+          nextButton.textContent = 'Next';
+          nextButton.className = 'btn btn-primary';
+          nextButton.onclick = function() {
+            document.getElementById(`instruction-${index}`).style.display = 'none';
+            if (index + 1 < routeInstructions.length) {
+              document.getElementById(`instruction-${index + 1}`).style.display = 'block';
+              if (index + 1 < images.length) {
+                map.src = images[index + 1];
+              } else {
+                map.style.display = 'none';
+              }
+            } else {
+              const destinationMessage = document.createElement('p');
+              destinationMessage.textContent = "You've reached your destination!";
+              routeDiv.appendChild(destinationMessage);
+            }
+          };
+          instructionDiv.appendChild(nextButton);
+
+          const previousButton = document.createElement('button');
+          previousButton.textContent = 'Previous';
+          previousButton.className = 'btn btn-primary';
+          previousButton.onclick = function() {
+            if (index - 1 >= 0) {
+              document.getElementById(`instruction-${index}`).style.display = 'none';
+              document.getElementById(`instruction-${index - 1}`).style.display = 'block';
+              if (index - 1 < images.length) {
+                map.src = images[index - 1];
+              } else {
+                map.style.display = 'none';
+              }
+            }
+          };
+          instructionDiv.appendChild(previousButton);
+          
+          routeDiv.appendChild(instructionDiv);
+        });
+        
+        document.getElementById('instruction-0').style.display = 'block';
+        map.src = images[0];
+        map.style.display = 'block';
+      } else {
+        routeDiv.textContent = 'No route available for the selected combination.';
+      }
+    });
+  </script>
+</body>
+</html>
