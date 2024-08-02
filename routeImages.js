@@ -1433,27 +1433,27 @@ export const routeImages = {
   'gh-e.jpg'
 ],
 'a-girls': [
-  'a-gha.jpg',
-  'a-gha.jpg'
+  'a-gh.jpg',
+  'a-gh.jpg'
 ],
 'b-girls': [
-  'b-gha.jpg',
-  'b-gha.jpg',
-  'b-gha.jpg'
+  'b-gh.jpg',
+  'b-gh.jpg',
+  'b-gh.jpg'
 ],
 'c-girls': [
-  'c-gha.jpg',
-  'c-gha.jpg',
-  'c-gha.jpg'
+  'c-gh.jpg',
+  'c-gh.jpg',
+  'c-gh.jpg'
 ],
 'd-girls': [
-  'd-gha.jpg',
-  'd-gha.jpg',
-  'd-gha.jpg'
+  'd-gh.jpg',
+  'd-gh.jpg',
+  'd-gh.jpg'
 ],
 'e-girls': [
-  'e-gha.jpg',
-  'e-gha.jpg'
+  'e-gh.jpg',
+  'e-gh.jpg'
 ],
 'girls-cafeteria': [
   'gh-cafe.jpg',
