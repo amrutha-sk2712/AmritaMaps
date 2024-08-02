@@ -236,7 +236,7 @@ export const routeImages = {
   'c-atm.jpg',
   'c-atm.jpg'
   ],
-  'e-atm': [
+  'e0-atm': [
   'e-atm.jpg',
   'e-atm.jpg',
   'e-atm.jpg'
@@ -256,7 +256,7 @@ export const routeImages = {
   'd-x.jpg',
   'd-x.jpg'
   ],
-  'e-xerox': [
+  'e0-xerox': [
   'e-x.jpg',
   'e-x.jpg',
   'e-x.jpg',
@@ -362,21 +362,21 @@ export const routeImages = {
   'd-e.jpg',
   'd-e.jpg'
   ],
-  'e-a': [
+  'e0-a': [
   'e-a.jpg',
   'e-a.jpg'
   ],
-  'e-b': [
+  'e0-b': [
   'e-b.jpg',
   'e-b.jpg',
   'e-b.jpg'
   ],
-  'e-c': [
+  'e0-c': [
   'e-c.jpg',
   'e-c.jpg',
   'e-c.jpg'
   ],
-  'e-d': [
+  'e0-d': [
   'e-d.jpg',
   'e-d.jpg',
   'e-d.jpg',
@@ -401,7 +401,7 @@ export const routeImages = {
   'd-cafe.jpg',
   'd-cafe.jpg'
   ],
-  'e-cafeteria': [
+  'e0-cafeteria': [
   'e-cafe.jpg',
   'e-cafe.jpg',
   'e-cafe.jpg',
@@ -458,7 +458,7 @@ export const routeImages = {
     'to-am.jpg',
     'to-am.jpg'
   ],
-  'e-amhall': [
+  'e0-amhall': [
     'to-am.jpg',
     'to-am.jpg'
   ],
@@ -523,7 +523,7 @@ export const routeImages = {
     'to-su.jpg',
     'to-su.jpg'
   ],
-  'e-shall': [
+  'e0-shall': [
     'to-su.jpg',
     'to-su.jpg',
     'to-su.jpg',
@@ -589,7 +589,7 @@ export const routeImages = {
     'to-kri.jpg',
     'to-kri.jpg'
   ],
-  'e-khall': [
+  'e0-khall': [
     'to-kri.jpg',
     'to-kri.jpg',
     'to-kri.jpg'
@@ -667,7 +667,7 @@ export const routeImages = {
     'to-ra.jpg',
     'to-ra.jpg'
   ],
-  'e-rhall': [
+  'e0-rhall': [
     'to-ra.jpg',
     'to-ra.jpg',
     'to-ra.jpg',
@@ -749,7 +749,7 @@ export const routeImages = {
     'to-vhall.jpg',
     'to-vhall.jpg'
   ],
-  'e-vhall': [
+  'e0-vhall': [
     'to-vhall.jpg',
     'to-vhall.jpg',
     'to-vhall.jpg',
@@ -817,7 +817,7 @@ export const routeImages = {
     'd-a.jpg',
     'd-a.jpg',
   ],
-  'e-elearn': [
+  'e0-elearn': [
     'e-a.jpg',
     'e-a.jpg',
     'e-a.jpg',
@@ -928,7 +928,7 @@ export const routeImages = {
     'to-va.jpg',
     'to-va.jpg'
   ],
-  'e-vahall': [
+  'e0-vahall': [
     'to-va.jpg',
     'to-va.jpg',
     'to-va.jpg',
@@ -966,7 +966,7 @@ export const routeImages = {
   'd-e.jpg',
   'to-lib.jpg'
 ],
-'e-lib': [
+'e0-lib': [
   'to-lib.jpg',
   'to-lib.jpg',
   'to-lib.jpg'
@@ -1037,7 +1037,7 @@ export const routeImages = {
   'd-bh.jpg',
   'd-bh.jpg'
 ],
-'e-boys': [
+'e0-boys': [
   'e-bh.jpg',
   'e-bh.jpg'
 ],
@@ -1269,7 +1269,7 @@ export const routeImages = {
   'en-e.jpg',
   'en-e.jpg'
 ],
-'e-entrance': [
+'e0-entrance': [
   'e-en.jpg'
 ],
 'entrance-elearn': [
@@ -1433,27 +1433,27 @@ export const routeImages = {
   'gh-e.jpg'
 ],
 'a-girls': [
-  'a-gh.jpg',
-  'a-gh.jpg'
+  'a-gha.jpg',
+  'a-gha.jpg'
 ],
 'b-girls': [
-  'b-gh.jpg',
-  'b-gh.jpg',
-  'b-gh.jpg'
+  'b-gha.jpg',
+  'b-gha.jpg',
+  'b-gha.jpg'
 ],
 'c-girls': [
-  'c-gh.jpg',
-  'c-gh.jpg',
-  'c-gh.jpg'
+  'c-gha.jpg',
+  'c-gha.jpg',
+  'c-gha.jpg'
 ],
 'd-girls': [
-  'd-gh.jpg',
-  'd-gh.jpg',
-  'd-gh.jpg'
+  'd-gha.jpg',
+  'd-gha.jpg',
+  'd-gha.jpg'
 ],
-'e-girls': [
-  'e-gh.jpg',
-  'e-gh.jpg'
+'e0-girls': [
+  'e-gha.jpg',
+  'e-gha.jpg'
 ],
 'girls-cafeteria': [
   'gh-cafe.jpg',
@@ -1875,5 +1875,69 @@ export const routeImages = {
         'en-e.jpg',
         'to-egirls.jpg',
         'to-egirls.jpg'
-    ]
-}
+    ],
+    'e1-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e2-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e3-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e4-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e5-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e6-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e7-girls': [
+    'e-gha.jpg',
+    'e-gha.jpg',
+    'e-gha.jpg'
+  ],
+  'e1-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ],
+  'e2-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ],
+  'e3-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ],
+  'e4-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ],
+  'e5-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ],
+  'e6-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ],
+  'e7-entrance': [
+    'e-en.jpg',
+    'e-en.jpg'
+  ]
+
+};
