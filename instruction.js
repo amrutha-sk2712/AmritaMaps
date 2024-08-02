@@ -1881,72 +1881,71 @@ export const routes = {
         'Take a right and then a left to enter E Block.',
         'Amriteshwari Hall will be on the right.'
     ],
-  'e1-girls': [
-  'Take the lift to the ground floor.',
-  'Take right from E-block and take right from entrance.',
-  'Go straight to reach Girls hostel.'
-  ],
-  'e2-girls': [
+    'e1-girls': [
     'Take the lift to the ground floor.',
     'Take right from E-block and take right from entrance.',
     'Go straight to reach Girls hostel.'
-  ],
-  'e3-girls': [
+    ],
+    'e2-girls': [
+      'Take the lift to the ground floor.',
+      'Take right from E-block and take right from entrance.',
+      'Go straight to reach Girls hostel.'
+    ],
+    'e3-girls': [
+      'Take the lift to the ground floor.',
+      'Take right from E-block and take right from entrance.',
+      'Go straight to reach Girls hostel.'
+    ],
+    'e4-girls': [
+      'Take the lift to the ground floor.',
+      'Take right from E-block and take right from entrance.',
+      'Go straight to reach Girls hostel.'
+    ],
+    'e5-girls': [
+      'Take the lift to the ground floor.',
+      'Take right from E-block and take right from entrance.',
+      'Go straight to reach Girls hostel.'
+    ],
+    'e6-girls': [
+      'Take the lift to the ground floor.',
+      'Take right from E-block and take right from entrance.',
+      'Go straight to reach Girls hostel.'
+    ],
+    'e7-girls': [
+      'Take the lift to the ground floor.',
+      'Take right from E-block and take right from entrance.',
+      'Go straight to reach Girls hostel.'
+    ],
+    'e1-entrance': [
     'Take the lift to the ground floor.',
-    'Take right from E-block and take right from entrance.',
-    'Go straight to reach Girls hostel.'
+    'Take right and go straight.'
   ],
-  'e4-girls': [
+  'e2-entrance': [
     'Take the lift to the ground floor.',
-    'Take right from E-block and take right from entrance.',
-    'Go straight to reach Girls hostel.'
+    'Take right and go straight.'
   ],
-  'e5-girls': [
+  'e2-entrance': [
     'Take the lift to the ground floor.',
-    'Take right from E-block and take right from entrance.',
-    'Go straight to reach Girls hostel.'
+    'Take right and go straight.'
   ],
-  'e6-girls': [
+  'e3-entrance': [
     'Take the lift to the ground floor.',
-    'Take right from E-block and take right from entrance.',
-    'Go straight to reach Girls hostel.'
+    'Take right and go straight.'
   ],
-  'e7-girls': [
+  'e4-entrance': [
     'Take the lift to the ground floor.',
-    'Take right from E-block and take right from entrance.',
-    'Go straight to reach Girls hostel.'
+    'Take right and go straight.'
   ],
-  'e1-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e2-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e2-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e3-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e4-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e5-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e6-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-'e7-entrance': [
-  'Take the lift to the ground floor.',
-  'Take right and go straight.'
-],
-
-  };
+  'e5-entrance': [
+    'Take the lift to the ground floor.',
+    'Take right and go straight.'
+  ],
+  'e6-entrance': [
+    'Take the lift to the ground floor.',
+    'Take right and go straight.'
+  ],
+  'e7-entrance': [
+    'Take the lift to the ground floor.',
+    'Take right and go straight.'
+  ],
+};
