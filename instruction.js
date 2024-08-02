@@ -236,7 +236,7 @@ export const routes = {
   'Go straight to reach A-block.',
   'Take left, ATM will be on the extreme end.'
   ],
-  'e-atm': [
+  'e0-atm': [
   'Go straight to reach the fountain road.',
   'Take left from fountain road to reach A-block.',
   'Take right from A-block to reach ATM.'
@@ -256,7 +256,7 @@ export const routes = {
   'Go straight from C-block to reach B-block.',
   'Xerox shop will be on the left.'
   ],
-  'e-xerox': [
+  'e0-xerox': [
   'Go straight to reach the fountain road.',
   'Take left from fountain road to reach A-block.',
   'Go straight to reach B-block.',
@@ -362,21 +362,21 @@ export const routes = {
   'Once you reach the end, take left.',
   'Go straight to enter the E block Building.'
   ],
-  'e-a': [
+  'e0-a': [
   'Take a left from E-block.',
   'Take a right.'
   ],
-  'e-b': [
+  'e0-b': [
   'Take a left.',
   'Take a right.',
   'Go straight from A Block towards the inside of the building.'
   ],
-  'e-c': [
+  'e0-c': [
   'Take a left.',
   'Take a right.',
   'Go straight from A Block towards the inside of the building.'
   ],
-  'e-d': [
+  'e0-d': [
   'Take a left.',
   'Take a right.',
   'Go straight from A Block towards the inside of the building.',
@@ -401,7 +401,7 @@ export const routes = {
   'Once you get down the staircase, come a little forward.',
   'Take the left, the immediate building is cafeteria.'
   ],
-  'e-cafeteria': [
+  'e0-cafeteria': [
   'If you are on the main entrance, take left and another left and the immediate right. (If you are on the side entrance, skip the step)',
   'Go straight till the end of the road.',
   'Take left.'
@@ -457,7 +457,7 @@ export const routes = {
     'Go straight into the building.',
     'The hall on the left is Amriteshwari Hall.'
   ],
-  'e-amhall': [
+  'e0-amhall': [
     'Go straight and take right.',
     'Take left to reach Amriteshwari Hall.'
   ],
@@ -522,7 +522,7 @@ export const routes = {
     'Go straight into the building.',
     'The third door on the right is Sudhamani Hall.'
   ],
-  'e-shall': [
+  'e0-shall': [
     'Go straight and take right.',
     'Take left.',
     'Take left.',
@@ -588,7 +588,7 @@ export const routes = {
     'If through staircase left, if through lift take right.',
     'The second hall from the left is Krishna hall.'
   ],
-  'e-khall': [
+  'e0-khall': [
     'Take the stairs/lift to the first floor.',
     'If through staircase left, if through lift take right.',
     'The second hall from the left is Krishna hall.'
@@ -666,7 +666,7 @@ export const routes = {
     'If through staircase left, if through lift take right.',
     'The first hall from the left is Rama hall.'
   ],
-  'e-rhall': [
+  'e0-rhall': [
     'Take the right.',
     'Take the stairs/lift to the first floor.',
     'If through staircase left, if through lift take right.',
@@ -748,7 +748,7 @@ export const routes = {
     'If through staircase left, if through lift take right.',
     'The third hall from the left is Vyasa hall.'
   ],
-  'e-vhall': [
+  'e0-vhall': [
     'Take the right.',
     'Take the stairs/lift to the first floor.',
     'If through staircase left, if through lift take right.',
@@ -816,7 +816,7 @@ export const routes = {
     'Take the left.',
     'The first hall is E-Learning.'
   ],
-  'e-elearn': [
+  'e0-elearn': [
     'Take a left.',
     'Take a right.',
     'Take the staircase on the left to the first floor.',
@@ -927,7 +927,7 @@ export const routes = {
     'If through staircase left, if through lift take right.',
     'The third hall from the left is Valmiki hall.'
   ],
-  'e-vahall': [
+  'e0-vahall': [
     'Take the right.',
     'Take the stairs/lift to the first floor.',
     'If through staircase left, if through lift take right.',
@@ -965,7 +965,7 @@ export const routes = {
   'Take the right if staircase or left if lift.',
   'The room on the left is Library.'
 ],
-'e-lib': [
+'e0-lib': [
   'Take the staircase or the lift to the 4th floor.',
   'Take the right if staircase or left if lift.',
   'The room on the left is Library.'
@@ -1036,7 +1036,7 @@ export const routes = {
   'Go straight to reach A-block.',
   'Go straight and exit the entrance to reach boys hostel.'
 ],
-'e-boys': [
+'e0-boys': [
   'Go straight and take right to reach the entrance.',
   'Go straight and exit the entrance to reach boys hostel.'
 ],
@@ -1268,7 +1268,7 @@ export const routes = {
   'Enter the building using the staircase.',
   'You have reached E Block.'
 ],
-'e-entrance': [
+'e0-entrance': [
   'Take right and go straight.'
 ],
 'entrance-elearn': [
@@ -1450,7 +1450,7 @@ export const routes = {
   'Go straight in the fountain road and take a right from entrance.',
   'Go straight to reach Girls hostel.'
 ],
-'e-girls': [
+'e0-girls': [
   'Take right from E-block and take right from entrance.',
   'Go straight to reach Girls hostel.'
 ],
@@ -1880,5 +1880,73 @@ export const routes = {
         'Once you have reached the end, take a left till you reach E Block.',
         'Take a right and then a left to enter E Block.',
         'Amriteshwari Hall will be on the right.'
-    ]
+    ],
+  'e1-girls': [
+  'Take the lift to the ground floor.',
+  'Take right from E-block and take right from entrance.',
+  'Go straight to reach Girls hostel.'
+  ],
+  'e2-girls': [
+    'Take the lift to the ground floor.',
+    'Take right from E-block and take right from entrance.',
+    'Go straight to reach Girls hostel.'
+  ],
+  'e3-girls': [
+    'Take the lift to the ground floor.',
+    'Take right from E-block and take right from entrance.',
+    'Go straight to reach Girls hostel.'
+  ],
+  'e4-girls': [
+    'Take the lift to the ground floor.',
+    'Take right from E-block and take right from entrance.',
+    'Go straight to reach Girls hostel.'
+  ],
+  'e5-girls': [
+    'Take the lift to the ground floor.',
+    'Take right from E-block and take right from entrance.',
+    'Go straight to reach Girls hostel.'
+  ],
+  'e6-girls': [
+    'Take the lift to the ground floor.',
+    'Take right from E-block and take right from entrance.',
+    'Go straight to reach Girls hostel.'
+  ],
+  'e7-girls': [
+    'Take the lift to the ground floor.',
+    'Take right from E-block and take right from entrance.',
+    'Go straight to reach Girls hostel.'
+  ],
+  'e1-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e2-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e2-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e3-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e4-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e5-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e6-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+'e7-entrance': [
+  'Take the lift to the ground floor.',
+  'Take right and go straight.'
+],
+
   };
